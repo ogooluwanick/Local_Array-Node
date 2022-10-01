@@ -1,0 +1,19 @@
+{
+  "name": "local_array-node",
+  "version": "0.0.1",
+  "description": "Node Js project for Local Arrays",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test",
+    "learn"
+  ],
+  "author": "Ogooluwanick",
+  "license": "ISC",
+  "dependencies": {
+    "concat-stream": "^2.0.0",
+    "fs": "^0.0.1-security"
+  }
+}
