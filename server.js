@@ -12,6 +12,6 @@ streamFileRead.on("error",()=>{
 let addAndManageChunksData = concat( (totalText) =>{
         console.log('There are ' + totalText.split(' ').length + ' words in the file')
         console.log(totalText.split(' '))
-      }) // returns a writable stream
+      }) // returns a writable stream for logged data
       
-      streamFileRead.pipe(addAndManageChunksData) ;
+      streamFileRead.pipe(addAndManageChunksData) ; // combines both streams
